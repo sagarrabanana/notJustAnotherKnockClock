@@ -32,8 +32,8 @@ NTPClient timeClient(ntpUDP, "pool.ntp.org", utcOffsetInSeconds);
 
 //-----------------------https://randomnerdtutorials.com/esp8266-nodemcu-http-get-open-weather-map-thingspeak-arduino/
 
-const char* ssid = "Lowi1A20";
-const char* password = "123carabinbonban";
+const char* ssid = "yourSSID";
+const char* password = "yourPassword";
 
 // Your Domain name with URL path or IP address with path
 String openWeatherMapApiKey = "03eded784c6d1a4b61f8a6e6fa928a8f";
